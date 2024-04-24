@@ -1,17 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T21:11:55.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="y3i2gRMcg8qCtOYNuxtJ" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T21:39:28.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6OxknRoIg5iLAL1qj97W" version="24.3.0" type="github">
   <diagram name="Page-1" id="mV1qP1kzvMr_AGbJ9KCR">
-    <mxGraphModel dx="2007" dy="2060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gpeztKrh80QSo0MVFvQO-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-1" target="gpeztKrh80QSo0MVFvQO-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="-780" width="60" height="100" as="geometry" />
+          <mxGeometry x="540" y="-780" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-5" value="Super Admin&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="560" y="-807" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-6" target="gpeztKrh80QSo0MVFvQO-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-6" target="gpeztKrh80QSo0MVFvQO-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="330" />
+              <mxPoint x="-253" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-6" value="Company" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-180" width="440" height="140" as="geometry" />
+          <mxGeometry x="180" y="-360" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-8" value="Super Admin has Many Company , Super Admin can create Admin for a&amp;nbsp;&lt;div&gt;company which will able to perform every operaton&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-6">
           <mxGeometry x="10" y="30" width="410" height="40" as="geometry" />
@@ -204,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-102" value="Rule" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="90" width="520" height="194" as="geometry">
+          <mxGeometry x="-450" y="90" width="520" height="194" as="geometry">
             <mxRectangle x="-330" y="90" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -235,6 +249,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="-110" as="sourcePoint" />
             <mxPoint x="340" y="-450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="-747" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gpeztKrh80QSo0MVFvQO-106" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-6" target="gpeztKrh80QSo0MVFvQO-102">
@@ -285,8 +302,87 @@
         <mxCell id="gpeztKrh80QSo0MVFvQO-122" value="One Rule Can have Many Dropdown Values, the rule_value&lt;div&gt;&amp;nbsp;will then be rule_dropdown_id,&lt;div&gt;&amp;nbsp;also all the values for a particular rule dropdown is stored in rule dropdown&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-730" y="-130" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gpeztKrh80QSo0MVFvQO-123" value="Company can configure Rule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-40;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-40" width="180" height="30" as="geometry" />
+        <mxCell id="gpeztKrh80QSo0MVFvQO-123" value="Company can configure Rule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-65;" vertex="1" parent="1">
+          <mxGeometry y="-130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-125" value="AWS S3 Container to store all the document&amp;nbsp;&lt;div&gt;uploaded by Company ,&amp;nbsp;&lt;/div&gt;&lt;div&gt;that will be visible&amp;nbsp;&lt;/div&gt;&lt;div&gt;to Employee through self service portal&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="84" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-6" target="gpeztKrh80QSo0MVFvQO-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="-40" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-127" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Email Service Configuration&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Login Name: String&lt;br&gt;+ Password: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+Outgoing Server&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+SMTP Port&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+Display Name&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+Require SSL Encryption&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="205" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-128" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-127">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.462;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-6" target="gpeztKrh80QSo0MVFvQO-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-133" value="Notification_Setup" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="340" width="535" height="194" as="geometry">
+            <mxRectangle x="-330" y="90" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-134" value="Rule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-133">
+          <mxGeometry x="20" y="30" width="160" height="136" as="geometry">
+            <mxRectangle x="20" y="30" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-135" value="+ id: GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-134">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-136" value="+ notification_code: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-134">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-137" value="+ notification_category: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-134">
+          <mxGeometry y="80" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-138" value="+ value: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-134">
+          <mxGeometry y="108" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-140" value="Super Admin Can Configure&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;these notifications based on&amp;nbsp;&lt;/span&gt;&lt;div&gt;Company,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Company can only enable/disable these&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;notificaitons,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Based on the value of these setup, notification will be send to&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;employee on specified time. .&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-133">
+          <mxGeometry x="185" y="30" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-143" value="Masters Setup" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="360" width="535" height="194" as="geometry">
+            <mxRectangle x="-330" y="90" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-144" value="Rule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-143">
+          <mxGeometry x="20" y="30" width="160" height="136" as="geometry">
+            <mxRectangle x="20" y="30" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-145" value="+ id: GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-144">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-146" value="+ notification_code: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-144">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-147" value="+ notification_category: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-144">
+          <mxGeometry y="80" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-148" value="+ value: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-144">
+          <mxGeometry y="108" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-149" value="&lt;div&gt;Super Admin Decide the master fields for a&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gpeztKrh80QSo0MVFvQO-143">
+          <mxGeometry x="235" y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-151" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="100" as="sourcePoint" />
+            <mxPoint x="550" y="-737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpeztKrh80QSo0MVFvQO-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.408;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gpeztKrh80QSo0MVFvQO-1" target="gpeztKrh80QSo0MVFvQO-143">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
